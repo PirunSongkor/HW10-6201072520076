@@ -81,7 +81,7 @@ def lucas_kanade_optical_flow(video_device) :
     cap.release()
     cv2.destroyAllWindows()
 
-lucas_kanade_optical_flow('./videos/grandcentral.mp4')
+lucas_kanade_optical_flow('C:\Users\PC_THONGBAI\Documents\VScode\010723305-main\010723305-main\videos')
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
